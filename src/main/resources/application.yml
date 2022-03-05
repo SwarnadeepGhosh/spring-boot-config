@@ -21,7 +21,7 @@ management.endpoints.web.exposure.include: "*"
 
 #Telling spring where to take the config.
 #spring.cloud.config.uri: http://localhost:8888
-spring.cloud.config.uri: http://localhost:8888
+spring.cloud.config.uri: https://spring-cloud-config-server-01.herokuapp.com
 
 spring.application.name: spring-boot-config
 
