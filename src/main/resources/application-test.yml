@@ -1,0 +1,18 @@
+app:
+  name: My app
+  description :  Welcome to ${app.name}
+
+my:
+  greeting: Hello from internal property.
+  list:
+    values: One,Two,Three
+
+#dbValues: {connectionString: 'http://___', userName: 'demo', password: 'pass'}
+
+db:
+  connection: "{connectionString: 'Coming from Test profile', userName: 'mydb', password: 'mypass'}"
+  host: 127.0.0.1
+  port: 2400
+
+#To expose all endpoints for Actuator
+management.endpoints.web.exposure.include: "*"

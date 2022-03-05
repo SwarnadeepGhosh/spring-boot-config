@@ -1,0 +1,27 @@
+app:
+  name: My app
+  description :  Welcome to ${app.name}
+
+my:
+  greeting: Hello from internal property.
+  list:
+    values: One,Two,Three
+
+#dbValues: {connectionString: 'http://___', userName: 'demo', password: 'pass'}
+
+#db:
+#  connection: "{connectionString: 'Coming from Base profile', userName: 'mydb', password: 'mypass'}"
+#  host: 127.0.0.1
+#  port: 1200
+
+#To expose all endpoints for Actuator
+management.endpoints.web.exposure.include: "*"
+
+#spring.profiles.active: test
+
+#Telling spring where to take the config.
+#spring.cloud.config.uri: http://localhost:8888
+spring.cloud.config.uri: http://localhost:8888
+
+spring.application.name: spring-boot-config
+
