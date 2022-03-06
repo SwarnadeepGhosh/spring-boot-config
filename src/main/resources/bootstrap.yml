@@ -1,0 +1,8 @@
+#bootstrap.yml is loaded before application.yml.
+#when using Spring Cloud Config Server, you should specify spring.application.name and spring.cloud.config.server.git.uri inside bootstrap.yml
+
+spring.application.name: spring-boot-config
+
+#Telling spring where to take the config.
+spring.cloud.config.uri: https://spring-cloud-config-server-01.herokuapp.com
+#spring.cloud.config.uri: http://localhost:8888
