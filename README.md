@@ -4,9 +4,9 @@
 
 Requirements and supporting Repositories
 
-- [Config Repository](#config-repositoryhttpsgithubcomswarnadeepghoshconfig-repo)
-- [Config Server](#config-serverhttpsgithubcomswarnadeepghoshspring-cloud-config-server)
-- [Config Client(Microservice)](#config-clientmicroservicehttpsgithubcomswarnadeepghoshspring-boot-config)
+- [Config Repository](#config-repository)
+- [Config Server](#config-server)
+- [Config Client(Microservice)](#config-clientmicroservice)
 
 
 
